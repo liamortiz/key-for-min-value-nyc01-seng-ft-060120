@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   prev_value = 0
-  name_hash.each do |element|
-    puts element
+  name_hash.each_pair do |k, v|
+    puts v
   end
 end
